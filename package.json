@@ -1,7 +1,7 @@
 {
-  "name": "vite-template-solid",
+  "name": "solid-feather",
   "version": "0.0.0",
-  "description": "",
+  "description": "A solidjs component for feather icons",
   "type": "module",
   "scripts": {
     "start": "vite",
@@ -9,13 +9,33 @@
     "build": "vite build",
     "serve": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaoaustero/solid-feather.git"
+  },
+  "keywords": [
+    "icons",
+    "feather",
+    "feather-icons",
+    "solid-feather",
+    "solidjs-feather",
+    "solid",
+    "solidjs",
+    "typescript",
+    "front-end",
+    "web"
+  ],
+  "author": "Jerald Austero (https://jeraldaustero.com/)",
+  "bugs": "https://github.com/jaoaustero/solid-feather/issues",
   "license": "MIT",
   "devDependencies": {
+    "@types/feather-icons": "^4.29.4",
     "typescript": "^5.7.2",
     "vite": "^6.0.0",
     "vite-plugin-solid": "^2.11.6"
   },
-  "dependencies": {
+  "peerDependencies": {
+    "feather-icons": "^4.29.2",
     "solid-js": "^1.9.5"
   }
 }

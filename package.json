@@ -22,7 +22,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaoaustero/solid-feather.git"
+    "url": "https://github.com/jaoaustero/solid-feather.git",
+    "repository": "jaoaustero/solid-feather"
   },
   "keywords": [
     "icons",

@@ -1,34 +1,62 @@
-## Usage
+## Features
+- Render as SVG to allow customization
+- Small size without any external libraries
+- Supports typescript
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+<br />
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+## Installation
+The plugin are available in node and yarn package managers.
 
 ```bash
-$ npm install # or pnpm install or yarn install
+# Node
+npm install solid-feather
+
+# Yarn
+yard add solid-feather
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+<br />
 
-## Available Scripts
+## Quickstart
+Import the `solid-feather` in your file, and simply add the component and it's properties.
 
-In the project directory, you can run:
+> Note: Component icon will not render when `type` is missing.
 
-### `npm run dev` or `npm start`
+```jsx
+import SolidFeather from 'solid-feather';
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+function App() {
+    return (
+        <SolidFeather
+            type="activity"/>
+    );
+}
+```
 
-The page will reload if you make edits.<br>
+<br />
 
-### `npm run build`
+## Props
+Here are the properties supported
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+| Name               | Description                             | Default        |
+|--------------------|-----------------------------------------|----------------|
+| `type`             | Icon type base on feather icons library | `undefined`    | 
+| `height`           | Icon height                             | `24`           |
+| `width`            | Icon width                              | `24`           |
+| `fill`             | Defines the color                       | `none`         |
+| `stroke`           | Sets the color of the line around       | `currentColor` |
+| `stroke-line-cap`  | Sets the shape of the end-lines         | `round`        |
+| `stroke-line-join` | Sets the shape of the corners           | `round`        |
+| `stroke-width`     | Sets the width of the line around       | `2`            |
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+<br />
 
-## Deployment
+## Styling and Customization
+Component will allow you to add custom class attribute or custom inline style to customize
+the style of the icon.
 
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+<br />
+
+## License
+Code released under [MIT](https://github.com/jaoaustero/solid-feather/blob/main/LICENSE) license.

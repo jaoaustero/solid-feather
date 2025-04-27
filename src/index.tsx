@@ -1,3 +1,3 @@
-import SolidFeather from './SolidFeather';
+import SolidFeatherIcon from './SolidFeatherIcon';
 
-export default SolidFeather
+export default SolidFeatherIcon;

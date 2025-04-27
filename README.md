@@ -10,10 +10,10 @@ The plugin are available in node and yarn package managers.
 
 ```bash
 # Node
-npm install solid-feather
+npm install solid-feather-icon
 
 # Yarn
-yard add solid-feather
+yard add solid-feather-icon
 ```
 
 <br />
@@ -24,11 +24,11 @@ Import the `solid-feather` in your file, and simply add the component and it's p
 > Note: Component icon will not render when `type` is missing.
 
 ```jsx
-import SolidFeather from 'solid-feather';
+import SolidFeatherIcon from 'solid-feather-icon';
 
 function App() {
     return (
-        <SolidFeather
+        <SolidFeatherIcon
             type="activity"/>
     );
 }
@@ -59,4 +59,4 @@ the style of the icon.
 <br />
 
 ## License
-Code released under [MIT](https://github.com/jaoaustero/solid-feather/blob/main/LICENSE) license.
+Code released under [MIT](https://github.com/jaoaustero/solid-feather-icon/blob/main/LICENSE) license.

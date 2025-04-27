@@ -1,17 +1,17 @@
 {
-  "name": "solid-feather",
-  "version": "1.0.0",
+  "name": "solid-feather-icon",
+  "version": "1.0.1",
   "description": "A solidjs component for feather icons",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/solid-feather.umd.js",
-  "module": "./dist/solid-feather.es.js",
+  "main": "./dist/solid-feather-icon.umd.js",
+  "module": "./dist/solid-feather-icon.es.js",
   "exports": {
     ".": {
-      "import": "./dist/solid-feather.es.js",
-      "require": "./dist/solid-feather.umd.js"
+      "import": "./dist/solid-feather-icon.es.js",
+      "require": "./dist/solid-feather-icon.umd.js"
     }
   },
   "scripts": {
@@ -22,8 +22,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaoaustero/solid-feather.git",
-    "repository": "jaoaustero/solid-feather"
+    "url": "https://github.com/jaoaustero/solid-feather-icon.git",
+    "repository": "jaoaustero/solid-feather-icon"
   },
   "keywords": [
     "icons",
@@ -38,7 +38,7 @@
     "web"
   ],
   "author": "Jerald Austero (https://jeraldaustero.com/)",
-  "bugs": "https://github.com/jaoaustero/solid-feather/issues",
+  "bugs": "https://github.com/jaoaustero/solid-feather-icon/issues",
   "license": "MIT",
   "devDependencies": {
     "@types/feather-icons": "^4.29.4",

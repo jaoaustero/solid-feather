@@ -8,8 +8,8 @@ export default defineConfig({
 		target: 'esnext',
 		lib: {
 			entry: path.resolve(path.dirname(new URL(import.meta.url).pathname), 'src/index.tsx'),
-			name: 'solid-feather',
-			fileName: ($format) => `solid-feather.${$format}.js`,
+			name: 'solid-feather-icon',
+			fileName: ($format) => `solid-feather-icon.${$format}.js`,
 		},
 		rollupOptions: {
 			external: ['solid-js']
